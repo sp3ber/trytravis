@@ -8,6 +8,8 @@
 
 [Знакомство с облачной инфраструктурой. Google Cloud Platform](#gcp_introduction)
 
+[Деплой тестового приложения](#deploy_testapp)
+
 <a name="local_settings_chatops"><h4>Настройка локального окружения</h4></a>
 <h5>Что сделано</h3>
 
@@ -36,7 +38,7 @@
     bastion_IP = 34.77.32.152
     someinternalhost_IP = 10.132.0.3
     
-<a name="#gcp_introduction"><h4>Деплой тестового приложения</h4></a>
+<a name="#deploy_testapp"><h4>Деплой тестового приложения</h4></a>
 <h5>Что сделано</h3>
 
     * Создан инстанс вм с помощью gcloud
