@@ -10,6 +10,8 @@
 
 [Деплой тестового приложения](#deploy_testapp)
 
+[Сборка образов VM с помощью Packer](#packer_vm)
+
 <a name="local_settings_chatops"><h4>Настройка локального окружения</h4></a>
 <h5>Что сделано</h3>
 
@@ -57,5 +59,12 @@
     ./create_vm.sh
     
     * Создать правило firewall:
-    ./create_firewall_rule.sh 
+    ./create_firewall_rule.sh     
+    
+<a name="#packer_vm"><h4>Сборка образов VM с помощью Packer</h4></a>
+<h5>Что сделано</h3>
+
+    * Создан шаблон для packer для образа reddit-base
+    * Создан образ vm на основе шаблона в GCP
+    * Добавлены пользовательские переменные в шаблон Packer 
 
