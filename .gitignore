@@ -3,3 +3,11 @@
 
 # variables, env etc.
 packer/variables.json
+
+# terraform
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.*.info
+*.tfstate.backup
+*.tfvars
+.terraform/
