@@ -1,2 +1,5 @@
 # WebStorm
 .idea
+
+# variables, env etc.
+packer/variables.json
