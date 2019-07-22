@@ -4,8 +4,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=sp4ber
-WorkingDirectory=/home/sp4ber/reddit
+EnvironmentFile=/home/appuser/db_config
+User=appuser
+WorkingDirectory=/home/appuser/reddit
 ExecStart=/bin/bash -lc 'puma'
 Restart=always
 
