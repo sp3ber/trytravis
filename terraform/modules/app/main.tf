@@ -30,7 +30,7 @@ resource "google_compute_instance" "app" {
   metadata {
     ssh-keys = "${var.username}:${file(var.public_key_path)}"
   }
-
+/*
   provisioner "file" {
     source      = "../files/puma.service"
     destination = "/tmp/puma.service"
@@ -38,7 +38,7 @@ resource "google_compute_instance" "app" {
 
   provisioner "remote-exec" {
     script = "../files/deploy.sh"
-  }
+  }*/
 }
 
 resource "google_compute_address" "app_ip" {
